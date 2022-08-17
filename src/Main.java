@@ -23,7 +23,7 @@ public class Main {
 
         String fullName2 = "Иванов Семён Семёнович";
         fullName2 = fullName2.replace('ё', 'е');
-        System.out.println(fullName2);
+        System.out.println("Данные ФИО сотрудника — " + fullName2);
 
 
 
