@@ -34,14 +34,12 @@ public class Main {
         String lastname3 = fullName3.substring (0, fullName3.indexOf(" "));
         System.out.print("Фамилия сотрудника — " + lastname3);
         System.out.println();
-        String firstname3 = fullName3.substring (7, 11);
+        String firstname3 = fullName3.substring (fullName3.indexOf(" "), fullName3.lastIndexOf(" "));
         System.out.print("Имя сотрудника — " + firstname3);
         System.out.println();
-        String middleName3 = fullName3.substring (12, fullName3.lastIndexOf(""));
+        String middleName3 = fullName3.substring (fullName3.lastIndexOf(" "), fullName3.lastIndexOf(""));
         System.out.print("Отчество сотрудника — " + middleName3);
 
-//        StringBuilder lastName3 = new StringBuilder(fullName3)
-//                int = sb.substring(0, sb.indexOf(" "));
 
 
 
