@@ -37,9 +37,32 @@ public class Main {
         String firstname3 = fullName3.substring (fullName3.indexOf(" "), fullName3.lastIndexOf(" "));
         System.out.print("Имя сотрудника — " + firstname3);
         System.out.println();
-        String middleName3 = fullName3.substring (fullName3.lastIndexOf(" "), fullName3.lastIndexOf(""));
+        String middleName3 = fullName3.substring (fullName3.lastIndexOf(" "));
         System.out.print("Отчество сотрудника — " + middleName3);
 
+
+
+
+
+
+        System.out.println();
+        System.out.println("Задание 5");
+        System.out.println();
+
+
+        String oneThreeFive = "135";
+        String twoFourSix = "246";
+
+        char one = oneThreeFive.charAt(0);
+        char three = oneThreeFive.charAt(1);
+        char five= oneThreeFive.charAt(2);
+
+        char two = twoFourSix.charAt(0);
+        char four = twoFourSix.charAt(1);
+        char six = twoFourSix.charAt(2);
+
+//        String oneTwoThree = String.valueOf(one + two + three);
+//        System.out.print(oneTwoThree);
 
 
 
